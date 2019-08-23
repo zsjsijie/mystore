@@ -1,0 +1,23 @@
+.login{
+    width: 7.5rem;
+    height: 100vh;
+    background-image:  url(../../assets/img/timg.jpg);
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #f00;
+    color:#fff;
+    overflow: hidden;
+    .lbutton{
+        width: 5rem;
+        height: .9rem;
+        margin: 9rem auto 0 auto;
+        background-color: #fff;
+        color: #f07978;
+        text-align: center;
+        line-height: .9rem;
+        border: 1px solid #f07978;
+        border-radius: .9rem;
+        letter-spacing: .05rem;
+    }
+}

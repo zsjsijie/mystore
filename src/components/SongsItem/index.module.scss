@@ -1,0 +1,31 @@
+
+    .sinfo{
+        width: 2.15rem;
+        height: 3rem;
+        margin-top: .5rem;
+        float: left;
+        margin: 0 0 0 .25rem;
+        .simg{
+            width: 2.15rem;
+            height: 2.15rem;
+            
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                border-radius: .1rem;
+            }
+        }
+        p{
+            margin-top: .2rem;
+            height: .67rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display:-webkit-box;
+            -webkit-line-clamp:2;
+            -webkit-box-orient:vertical;
+            color:#313131;
+            font-size: .25rem;
+            line-height: .35rem;
+        }
+    }

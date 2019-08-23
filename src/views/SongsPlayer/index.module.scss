@@ -1,0 +1,124 @@
+.songsplayer{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0,black,#736b54);
+    color: #fff;
+    .sheader{
+        width: 7rem;
+        height: 1.2rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        div{
+            .iconfont{
+                font-size: .4rem;
+            }
+        }
+        div:nth-child(2){
+            padding-left: .4rem;
+            width: 5.5rem;
+            p:first-child{
+                line-height: .5rem;
+                font-size: .32rem;
+               
+            }
+            p:last-child{
+                color: #908b7c;
+                font-size: .26rem;
+                
+            }
+        }
+        div:last-child{
+            text-align: right;
+        }
+    }
+    .main{
+        width: 100%;
+        height: 8.8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        div{
+            width: 5.7rem;
+            height: 5.7rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: #504a3c;
+            border: 1px solid #504a3c;
+            border-radius: 50%;
+            div{
+                width: 5.4rem;
+                height: 5.4rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                background-color: #000;
+                border: 1px solid #000;
+                border-radius: 50%;
+                div{
+                    width: 3.7rem;
+                    height: 3.7rem;
+                    background-color: #000;
+                    border: 1px solid #000;
+                    border-radius: 50%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                        border: 1px solid #000;
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+        }
+        
+    }
+    .nav{
+        width: 7rem;
+        height: .9rem;
+        margin: 0 auto;
+        line-height: .9rem;
+        font-size: .45rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        color: #e0e0e0;
+    }
+    .song{
+        color:#fff;
+        line-height: .8rem;
+        audio{
+            background-color: #fff;
+        }
+    }
+    .handle{
+        width: 7rem;
+        height: .9rem;
+        margin: 0 auto;
+        line-height: .9rem;
+        font-size: .45rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 1.1rem;
+        color: #e0e0e0;
+        div:nth-child(3){
+            span{
+                font-size: 1rem
+            }
+            .iconfont{
+                font-size: 1rem
+            }
+            
+        }
+    }
+}

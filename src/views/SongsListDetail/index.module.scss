@@ -1,0 +1,138 @@
+.songslistdetail{
+    width: 100%;
+    background-color: #504d48;
+    overflow: scroll;
+    div{
+        .header{
+            width: 6.7rem;
+            height: 1.1rem;
+            margin: 0 auto;
+            background-color: #504d48;
+            line-height: 1.1rem;
+            color: #fff;
+            font-size: .35rem;
+            .iconfont{
+                font-size: .35rem
+            }
+            span{
+                padding-right: .6rem;
+            }
+        }
+        .description{
+            width: 6.7rem;
+            height: 2.6rem;
+            margin: .4rem auto 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            color: #fff;
+            .imgbox{
+                width: 2.6rem;
+                height: 2.6rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+            .dright{
+                margin-left: .4rem;
+                width: 3.7rem;
+                height: 2.6rem;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                h3{
+                    line-height: .5rem;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+                p{
+                    line-height: .8rem;
+                    font-size: .26rem;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    span{
+                        padding-right: .2rem;
+                    }
+                }
+                p:last-child{
+                    margin-top: .4rem;
+                }
+            }
+        }
+        .snav{
+            width: 6.7rem;
+            margin: 0 auto;
+            color:#fff;
+            height: 1.5rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            p{
+                line-height: 0.5rem;
+                font-size: .24rem
+            }
+        }
+        .content{
+            background-color: #fff;
+            border-top: 1px solid #504d48;
+            border-radius: .4rem;
+            width: 6.7rem;
+            padding: 0 .4rem;
+            .cheader{
+                height: 1rem;
+                line-height: 1rem;
+                span{
+                    color: #515151;
+                    padding-right: .35rem;
+                }
+                span:nth-child(2){
+                    padding-right: 0;
+                    font-weight: 900;
+                }
+                span:last-child{
+                    color: #8e8e8e;
+                }
+            }
+            .info{
+                width: 100%;
+                overflow: hidden;
+                .item{
+                    width: 100%;
+                    height: 1.3rem;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: center;
+                    div{
+                        color:#939393;
+                    }
+                    div:first-child{
+                        width: .63rem;
+                    }
+                    div:nth-child(2){
+                        width: 5rem;
+                        p{
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        }
+                        p:first-child{
+                            color: #4b4b4b
+                        }
+                    }
+                    div:last-child{
+                        padding-left: .3rem;
+                    }
+                }
+            }
+        }
+    }
+    
+}

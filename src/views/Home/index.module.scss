@@ -1,0 +1,174 @@
+.home{
+    margin: 1.1rem 0 0 0;
+    background-color: #f5f5f5;
+    .radionav{
+        overflow-y:scroll;
+        background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 2rem;
+        .radioinfo{
+            width: 2.5rem;
+            padding: 0 .3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            div{
+                width: 1rem;
+                height: 1rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+            p{
+                font-size: .3rem;
+                color: #e7e7e7;
+                text-align: center;
+                width: 1.5rem;
+            }
+        }
+    }
+    .userlist{
+        overflow: hidden;
+        border-top: 1px solid #f5f5f5;
+        background-color: #fff;
+        .userinfo{
+            width: 100%;
+            line-height: 1rem;
+            border-top: 1px solid #f5f5f5;
+            span{
+                padding-left:.5rem;
+            }
+            span:last-child{
+                padding-left: .1rem;
+                color: #8b8b8b;
+            }
+            span:nth-child(2){
+                color: #0e0e0e;
+            }
+        }
+    }
+    .recommend{
+        width: 100%;
+        margin-top: .25rem;
+        background-color: #fff;
+        overflow: hidden;
+        .rtitle{
+            padding: .3rem 0;
+            b{
+                padding-left: .1rem;
+                font-size: .37rem;
+            }
+            span{
+                padding-left: .12rem;
+                font-size: .27rem;
+                color: #2b1c1c;
+            }
+        }
+        .rcontent{
+            height: 1.28rem;
+            width: 100%;
+            display: flex;
+            overflow: hidden;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            .rimg{
+                width: 1.1rem;
+                height: 1.1rem;
+                padding-left: .32rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+            .rfav{
+                padding-left: .2rem;
+                p{
+                    padding: .1rem 0;
+                    font-size: .32rem;
+                }
+                p:last-child{
+                    color:#767676;
+                    font-size: .24rem;
+                }
+            }
+            .rheart{
+                margin-left: 1.5rem;
+                color: #222222;
+                font-size: .28rem;
+                padding: .1rem .2rem;
+                border: 1px solid #e3e3e3;
+                border-radius: .5rem;
+            }
+        }
+        
+    }
+    .songsmenu{
+        width: 100%;
+        margin-top: .25rem;
+        background-color: #fff;
+        overflow: hidden;
+        .stitle{
+            padding-top: .3rem;
+            b{
+                padding-left: .1rem;
+                font-size: .37rem;
+            }
+            span{
+                padding-left: .12rem;
+                font-size: .27rem;
+                color: #2b1c1c;
+            }
+            .menur{
+                float: right;
+                margin-right: .2rem;
+            }
+        }
+        .scontent{
+            width: 7rem;
+            margin: 0 auto;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .sinfo{
+                width: 2.15rem;
+                height: 3rem;
+                margin-top: .5rem;
+                
+                .simg{
+                    width: 2.15rem;
+                    height: 2.15rem;
+                    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                        border-radius: .1rem;
+                    }
+                }
+                p{
+                    margin-top: .2rem;
+                    height: .67rem;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display:-webkit-box;
+                    -webkit-line-clamp:2;
+                    -webkit-box-orient:vertical;
+                    color:#313131;
+                    font-size: .25rem;
+                    line-height: .35rem;
+                }
+            }
+        }
+    }
+}

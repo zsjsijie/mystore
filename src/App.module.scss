@@ -1,0 +1,14 @@
+.App{
+    width: 100%;
+    .nav{
+        position: fixed;
+        left: 0;
+        top:0;
+        width: 100%;
+        line-height: .8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+}
